@@ -1,0 +1,13 @@
+.spin {
+  //   width: 50px;
+  //   height: 50px;
+
+  animation-name: rotate;
+  animation-duration: infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

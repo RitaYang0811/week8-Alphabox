@@ -1,0 +1,19 @@
+.h-link {
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.h-black {
+  @include pc {
+    background-color: black;
+    transition: all 1s ease;
+    &:hover {
+      background-color: rgb(0, 0, 0, 0.2);
+    }
+  }
+}
+.h-shadow {
+  &:hover {
+    box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.8);
+  }
+}

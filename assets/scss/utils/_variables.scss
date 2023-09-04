@@ -298,7 +298,7 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary: $blue !default;
+$primary: #7000ff; //$blue !default;
 $secondary: $gray-600 !default;
 $success: $green !default;
 $info: $cyan !default;
@@ -306,12 +306,19 @@ $warning: $yellow !default;
 $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $gray-900 !default;
+$primary-100: #e9e2f3;
+$primary-200: #7000ff;
+$primary-300: #6e01f8;
+$primary-400: #380c7e;
+$primary-500: #1f0f39;
+$primary-600: #11002d;
+$secondary-100: #ad93cf;
+
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary": #7000ff,
-  //$primary,
+  "primary": $primary,
   "secondary": $secondary,
   "success": $success,
   "info": $info,
@@ -319,11 +326,15 @@ $theme-colors: (
   "danger": $danger,
   "light": $light,
   "dark": $dark,
-  "color1": #11002d,
-  "color2": #6e01f8,
-  "color3": #380c7e,
-  "color4": #1f0f39,
-  "color5": #e9e2f3,
+  "white": $white,
+  "black": $black,
+  "primary-100": $primary-100,
+  "primary-200": $primary-200,
+  "primary-300": $primary-300,
+  "primary-400": $primary-400,
+  "primary-500": $primary-500,
+  "primary-600": $primary-600,
+  "secondary-100": $secondary-100,
 ) !default; //custom
 // scss-docs-end theme-colors-map
 
@@ -441,6 +452,26 @@ $spacers: (
   19: $spacer * 19,
   20: $spacer * 20,
   21: $spacer * 21,
+  22: $spacer * 22,
+  23: $spacer * 23,
+  24: $spacer * 24,
+  25: $spacer * 25,
+  34: $spacer * 34,
+  35: $spacer * 35,
+  36: $spacer * 36,
+  -18: $spacer * -18,
+  -19: $spacer * -19,
+  -20: $spacer * -20,
+  -21: $spacer * -21,
+  -22: $spacer * -22,
+  -23: $spacer * -23,
+  -24: $spacer * -24,
+  -25: $spacer * -25,
+  -26: $spacer * -26,
+  -27: $spacer * -27,
+  -28: $spacer * -28,
+  -29: $spacer * -29,
+  -30: $spacer * -30,
 ) !default; //custom
 // scss-docs-end spacer-variables-maps
 
@@ -462,7 +493,7 @@ $position-values: (
 
 $body-text-align: null !default;
 $body-color: $white; //$gray-900 !default;custom
-$body-bg: $white !default;
+$body-bg: transparent; //$white !default;custom
 
 $body-secondary-color: rgba($body-color, 0.75) !default;
 $body-secondary-bg: $gray-200 !default;
@@ -513,7 +544,7 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px,
   xxl: 1400px,
-  xxxl: 1920px //custom,
+  xxxl: 1920px //custom,,,,,,,,,,,,,,,,,,,,
 ) !default;
 // scss-docs-end grid-breakpoints
 
@@ -531,7 +562,7 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px,
   xxl: 1320px,
-  xxxl: 1760px //custom,
+  xxxl: 1760px //custom,,,,,,,,,,,,,,,,,,,
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -920,12 +951,12 @@ $input-padding-y-lg: $input-btn-padding-y-lg !default;
 $input-padding-x-lg: $input-btn-padding-x-lg !default;
 $input-font-size-lg: $input-btn-font-size-lg !default;
 
-$input-bg: var(--#{$prefix}body-bg) !default;
+$input-bg: $white; //var(--#{$prefix}body-bg) !default; custom
 $input-disabled-color: null !default;
 $input-disabled-bg: var(--#{$prefix}secondary-bg) !default;
 $input-disabled-border-color: null !default;
 
-$input-color: var(--#{$prefix}body-color) !default;
+$input-color: $black; //var(--#{$prefix}body-color) !default;custom
 $input-border-color: var(--#{$prefix}border-color) !default;
 $input-border-width: $input-btn-border-width !default;
 $input-box-shadow: $box-shadow-inset !default;
@@ -940,7 +971,7 @@ $input-focus-color: $input-color !default;
 $input-focus-width: $input-btn-focus-width !default;
 $input-focus-box-shadow: $input-btn-focus-box-shadow !default;
 
-$input-placeholder-color: var(--#{$prefix}secondary-color) !default;
+$input-placeholder-color: $black; //var(--#{$prefix}secondary-color) !default;custom
 $input-plaintext-color: var(--#{$prefix}body-color) !default;
 
 $input-height-border: calc(
@@ -1205,7 +1236,7 @@ $zindex-levels: (
 
 // Nav s
 // scss-docs-start nav-variables
-$nav-link-padding-y: 1.75rem; //.5rem !default; custom 28px
+$nav-link-padding-y: 0.5rem !default;
 $nav-link-padding-x: 1rem !default;
 $nav-link-font-size: 1rem; //null !default; 16px custom
 $nav-link-font-weight: 500; //null !default; custom
@@ -1238,12 +1269,12 @@ $nav-underline-link-active-color: var(--#{$prefix}emphasis-color) !default;
 // Navbar
 
 // scss-docs-start navbar-variables
-$navbar-padding-y: 1.75rem; //$spacer * .5 !default;28px custom
+$navbar-padding-y: 0; //$spacer * .5 !default;28px custom
 $navbar-padding-x: null !default;
 
-$navbar-nav-link-padding-x: 0.5rem !default;
+$navbar-nav-link-padding-x: 0.75rem; //0.5rem  !default;
 
-$navbar-brand-font-size: 3rem; //$font-size-lg !default;48px custom
+$navbar-brand-font-size: 2rem; //$font-size-lg !default;48px custom
 // Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
 $nav-link-height: $font-size-base * $line-height-base + $nav-link-padding-y * 2 !default;
 $navbar-brand-height: $navbar-brand-font-size * $line-height-base !default;
@@ -1257,7 +1288,7 @@ $navbar-toggler-border-radius: $btn-border-radius !default;
 $navbar-toggler-focus-width: $btn-focus-width !default;
 $navbar-toggler-transition: box-shadow 0.15s ease-in-out !default;
 
-$navbar-light-color: rgba(var(--#{$prefix}emphasis-color-rgb), 0.65) !default;
+$navbar-light-color: $white; //rgba(var(--#{$prefix}emphasis-color-rgb), 0.65) !default;
 $navbar-light-hover-color: rgba(
   var(--#{$prefix}emphasis-color-rgb),
   0.8

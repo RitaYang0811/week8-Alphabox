@@ -1,0 +1,29 @@
+@mixin pad {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin pc {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin xxxl {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: black;
+  @include pad {
+    background: blue;
+  }
+  @include pc {
+    background: red;
+  }
+  @include xxxl {
+    background: green;
+  }
+}

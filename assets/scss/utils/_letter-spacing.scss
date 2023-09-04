@@ -1,0 +1,44 @@
+.letter-spacing-016 {
+  letter-spacing: 1.6px;
+}
+
+.letter-spacing-16 {
+  letter-spacing: 16px;
+}
+.letter-spacing-20 {
+  letter-spacing: 20px;
+}
+.letter-spacing-24 {
+  letter-spacing: 24px;
+}
+.letter-spacing-40 {
+  letter-spacing: 40px;
+}
+.letter-spacing-320 {
+  letter-spacing: 320px;
+}
+.letter-spacing-lg-1280 {
+  @include pc {
+    letter-spacing: 1280px;
+  }
+}
+.letter-spacing-lg-32 {
+  @include pc {
+    letter-spacing: 32px;
+  }
+}
+.letter-spacing-lg-48 {
+  @include pc {
+    letter-spacing: 48px;
+  }
+}
+.letter-spacing-lg-40 {
+  @include pc {
+    letter-spacing: 40px;
+  }
+}
+.letter-spacing-xxxl-75 {
+  @include xxxl {
+    letter-spacing: 75px;
+  }
+}
