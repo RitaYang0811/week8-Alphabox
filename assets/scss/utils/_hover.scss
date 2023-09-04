@@ -17,3 +17,18 @@
     box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.8);
   }
 }
+.h-underline {
+  &::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: $black;
+    transform: scalex(0); //Ｘ軸為基準，物件尺寸0
+    transform-origin: left; //起始點由左側開始
+    transition: transform 0.4s ease;
+  }
+  &:hover::after {
+    transform: scalex(1); //Ｘ軸為基準，物件尺寸100%
+  }
+}

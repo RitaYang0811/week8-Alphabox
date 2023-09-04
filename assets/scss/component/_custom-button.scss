@@ -1,0 +1,18 @@
+.cus-button {
+  padding: 0.25em 5rem 0.25rem 5rem;
+  border: 1px solid $white;
+  text-align: center;
+  font-family: Shrikhand, cursive;
+  background: transparent;
+  color: $white;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  &:hover {
+    background: $white;
+    color: $primary-200;
+  }
+  &.active {
+    background: $white;
+    color: $black;
+  }
+}

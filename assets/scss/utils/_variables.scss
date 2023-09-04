@@ -459,6 +459,8 @@ $spacers: (
   34: $spacer * 34,
   35: $spacer * 35,
   36: $spacer * 36,
+  37: $spacer * 37,
+  54: $spacer * 54,
   -18: $spacer * -18,
   -19: $spacer * -19,
   -20: $spacer * -20,
@@ -482,9 +484,13 @@ $spacers: (
 // scss-docs-start position-map
 $position-values: (
   0: 0,
-  16: 16px,
   50: 50%,
   100: 100%,
+  16: 16px,
+  26: 26px,
+  30: 30px,
+  40: 40px,
+  60: 60px,
 ) !default; //custom
 // scss-docs-end position-map
 
@@ -545,7 +551,7 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px,
   xxl: 1400px,
-  xxxl: 1920px //custom,,,,,,,,,,,,,,,,,,,,,,,
+  xxxl: 1920px //custom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ) !default;
 // scss-docs-end grid-breakpoints
 
@@ -563,7 +569,7 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px,
   xxl: 1320px,
-  xxxl: 1760px //custom,,,,,,,,,,,,,,,,,,,,,,
+  xxxl: 1760px //custom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ) !default;
 // scss-docs-end container-max-widths
 

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/images/logo-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <title>ALPHABOX+</title>
+  </head>
+  <body>
+    <div style="background: linear-gradient(180deg, #7000ff 0%, #11002d 100%)">
+      <%- include('./layout/header'); -%>
+
+      <div class="bg-black position-relative">
+        <div class="container">
+          <ul
+            class="d-flex gap-2 gap-lg-6 py-4 list-unstyled justify-content-center mb-0"
+          >
+            <li>
+              <a href="productDiane.html" class="cus-button active">Diane</a>
+            </li>
+            <li><a href="productFelix.html " class="cus-button">Felix</a></li>
+            <li><a href="productKarina.html" class="cus-button">Karina</a></li>
+            <li><a href="productVito.html" class="cus-button">Vito</a></li>
+          </ul>
+        </div>
+        <!-- 照片 -->
+        <section
+          class="d-flex flex-column flex-md-row align-items-md-center justify-content-md-start"
+        >
+          <div class="swiper produtSwiper w-100 w-md-50 mx-0">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/diane_square1.png?raw=true"
+                  alt="diane"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="swiper-slide flex-shrink-1">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/diane_square2.png?raw=true"
+                  alt="diane"
+                  class="img-fluid"
+                />
+                />Diane
+              </div>
+            </div>
+
+            <div class="swiper-button-prev custom-swiper-button-prev"></div>
+            <div class="swiper-button-next custom-swiper-button-next"></div>
+          </div>
+
+          <div class="pt-4 py-37 py-lg-0 px-3 px-lg-10">
+            <h1 class="font-shrikhand fs-3 fs-lg-2 mb-lg-6">Diane</h1>
+
+            <p class="fw-bold">知識型</p>
+            <span class="mb-md-4">學術領導/知識分享/智能問答</span>
+
+            <span>
+              <a href="#" class="d-block"
+                ><img
+                  src="../assets/images/end-arrow.svg"
+                  alt=""
+                  class="img-fluid"
+              /></a>
+            </span>
+          </div>
+        </section>
+        <!-- 旋轉 -->
+        <a href="#dianeDetail">
+          <div
+            class="position-absolute bottom-30 bottom-lg-40 start-50 translate-middle-x z-1"
+          >
+            <div
+              class="position-relative text-white mx-auto"
+              style="width: 116px; height: 116px"
+            >
+              <svg
+                class="overflow-visible self-rotate-10s"
+                viewBox="0 0 116 116"
+              >
+                <path d="M 0,58 a 58,58 0 1,1 0,1 z" id="circle" fill="none" />
+                <text class="letter-spacing-10" fill="white">
+                  <textPath xlink:href="#circle">ALPHABOX+ALPHABOX+</textPath>
+                </text>
+              </svg>
+              <span class="position-absolute top-50 start-50 translate-middle"
+                ><img
+                  src="../assets/images/design-desktop-arrow-downward.svg"
+                  alt=""
+              /></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- 產品特色 -->
+    <div
+      class="container pt-15 pb-20 pt-lg-27 pb-lg-30 text-black"
+      id="dianeDetail"
+    >
+      <div
+        class="row justify-content-lg-between align-items-start mb-8 mb-lg-30"
+      >
+        <div class="col-12 col-lg-4">
+          <h2 class="fw-medium fs-5 mb-6 mb-lg-8 text-black">
+            <img
+              src="../assets/images/logo-icon.png"
+              alt=""
+              style="width: 40px; height: 40px"
+            />學術領導/知識分享/智能問答
+          </h2>
+          <p class="fw-medium">
+            歡迎來到ALPHABOX+的全新世界！在這裡，我們很榮幸地向您介紹我們的最新力作
+            - 3D立體投影機器人 Felix！
+          </p>
+        </div>
+        <div class="col-lg-4 d-none d-lg-block text-end fw-medium fs-5">
+          ALPHABOX+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <h3 class="fw-bold fs-6 text-black mb-4 mb-lg-6 h-underline">
+            先進的3D投影技術
+          </h3>
+          <p class="flex-grow-1 mb-6 mb-lg-26">
+            Felix 搭載了最新的 3D
+            投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <h3 class="fw-bold fs-6 text-black mb-4 mb-lg-6 h-underline">
+            人性化的互動設計
+          </h3>
+          <p class="flex-grow-1 mb-6 mb-lg-26">
+            Diane 具有高度智能的語音辨識和回應功能，您可以像跟朋友聊天一樣，與
+            Diane 進行自然、流暢的對話。
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <h3 class="fw-bold fs-6 text-black mb-4 mb-lg-6 h-underline">
+            豐富的應用場景
+          </h3>
+          <p class="flex-grow-1 mb-6 mb-lg-26">
+            無論是家庭娛樂、教育培訓還是商業展示，Diane
+            都能夠輕鬆滿足您的需求，為您提供更多元的互動體驗。
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <h3 class="fw-bold fs-6 text-black mb-4 mb-lg-6 h-underline">
+            高度自主性
+          </h3>
+          <p class="flex-grow-1 mb-6 mb-lg-26">
+            Diane
+            具有強大的自主學習能力，能夠不斷地學習並優化自己，為您創造更加便捷、貼心的生活方式。
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <h3 class="fw-bold fs-6 text-black mb-4 mb-lg-6 h-underline">
+            簡單易用的操作界面
+          </h3>
+          <p class="flex-grow-1 mb-6 mb-lg-26">
+            Diane 擁有直觀的操作界面，讓您可以輕鬆地掌握並運用它的各種功能。
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- 使用分享 -->
+    <section
+      style="
+        background: radial-gradient(
+          105.81% 105.81% at 50% 50%,
+          #28085c 0%,
+          #000 100%
+        );
+      "
+    >
+      <div class="container pt-15 pb-20 pt-lg-40 pb-lg-54">
+        <div class="row">
+          <div class="col-12 col-lg-4 mb-6 mb-lg-20 align-items-lg-center">
+            <h2
+              class="fs-3 fw-bold letter-spacing-40 overflow-hidden mb-4 mb-lg-3"
+            >
+              使用分享
+            </h2>
+            <p class="fw-bold mb-lg-4 order-last">
+              展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。
+            </p>
+          </div>
+        </div>
+
+        <ul class="row list-unstyled mb-0">
+          <li class="col-12 col-md-6 col-lg-4 mb-6">
+            <div class="d-flex flex-column bg-primary-400 p-6 comment">
+              <span class="fs-6 mb-8 d-flex gap-2 align-items-center"
+                >Zona<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="8"
+                  height="8"
+                  viewBox="0 0 8 8"
+                  fill="none"
+                >
+                  <circle cx="4" cy="4" r="4" fill="white" /></svg
+                >Taipei</span
+              >
+              <div class="flex-grow-1">
+                ALPHABOX+
+                真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。
+              </div>
+              <span class="d-flex gap-4 align-items-center"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                >
+                  <circle cx="8" cy="8" r="8" fill="white" /></svg
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                >
+                  <circle cx="8" cy="8" r="8" fill="white" /></svg
+                >ALPHABOX+ Dianne</span
+              >
+            </div>
+          </li>
+          <li class="col-12 col-md-6 col-lg-4 mb-6">
+            <div class="d-flex flex-column bg-white text-black p-6 comment">
+              <span class="fs-6 mb-8 d-flex gap-2 align-items-center"
+                >Lee<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="8"
+                  height="8"
+                  viewBox="0 0 8 8"
+                  fill="none"
+                >
+                  <circle cx="4" cy="4" r="4" fill="black" /></svg
+                >Chiayi</span
+              >
+              <div class="flex-grow-1">
+                自從公司引入 Dianne，員工的工作效率提升了很多。Dianne
+                不僅能快速回應我們的需求，還可以協助我們做各種商業展示，真的是企業的好幫手！
+              </div>
+              <span class="d-flex gap-4 align-items-center"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                >
+                  <circle cx="8" cy="8" r="8" fill="black" /></svg
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                >
+                  <circle cx="8" cy="8" r="8" fill="black" /></svg
+                >ALPHABOX+ Dianne</span
+              >
+            </div>
+          </li>
+          <li class="col-12 col-md-6 col-lg-4 mb-6">
+            <div class="d-flex flex-column bg-primary-400 p-6 comment">
+              <span class="fs-6 mb-8 d-flex gap-2 align-items-center"
+                >瑞<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="8"
+                  height="8"
+                  viewBox="0 0 8 8"
+                  fill="none"
+                >
+                  <circle cx="4" cy="4" r="4" fill="white" /></svg
+                >Taipei</span
+              >
+              <div class="flex-grow-1">
+                Dianne
+                讓教學變得更生動有趣，學生們在課堂上的參與度和學習效果都有顯著提升。我非常推薦Dianne給所有的教育工作者！
+              </div>
+              <span class="d-flex gap-4 align-items-center"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                >
+                  <circle cx="8" cy="8" r="8" fill="white" /></svg
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                >
+                  <circle cx="8" cy="8" r="8" fill="white" /></svg
+                >ALPHABOX+ Dianne</span
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".produtSwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

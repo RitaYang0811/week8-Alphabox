@@ -25,10 +25,12 @@
 @import "./mixin/mixin";
 @import "./base/font.scss";
 @import "./utils/hover";
-@import "./utils/custom-color";
-@import "./mixin/bg-gradient";
+// @import "./utils/custom-color";
+// @import "./mixin/bg-gradient";
 @import "./utils/letter-spacing";
 @import "./utils/spin";
+@import "./utils/swiper";
+@import "./component/custom-button";
 
 @import "./pages/index.scss";
 

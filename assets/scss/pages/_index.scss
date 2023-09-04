@@ -37,22 +37,12 @@
 }
 //評論尺寸
 .comment {
-  width: 351px;
   height: 351px;
   @include pad {
-    width: 416px;
     height: 416px;
   }
 }
-/* 滾動條可拖曳區塊的顏色 */
-.swiper-scrollbar-drag {
-  background-color: #fff;
-}
 
-/* 整個滾動條的背景顏色 */
-.swiper-scrollbar {
-  background: rgba(255, 255, 255, 0.2);
-}
 //背後大字透明度，不知道為什麼無法修改utilities
 .opacity-04 {
   opacity: 4%;
