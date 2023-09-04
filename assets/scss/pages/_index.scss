@@ -35,24 +35,7 @@
   opacity: 0.5;
   top: -100px;
 }
-
-//查看更多旋轉
-.letter-spacing-10 {
-  letter-spacing: 10px;
-}
-
-.self-rotate-10s {
-  animation: self-rotate360 10s infinite linear;
-}
-
-@keyframes self-rotate360 {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+//評論尺寸
 .comment {
   width: 351px;
   height: 351px;
@@ -70,20 +53,7 @@
 .swiper-scrollbar {
   background: rgba(255, 255, 255, 0.2);
 }
-.fs-128 {
-  font-size: 128px;
-}
-.fs-lg-400 {
-  @include pc {
-    font-size: 400px;
-  }
-}
-.fs-400 {
-  font-size: 400px;
-}
+//背後大字透明度，不知道為什麼無法修改utilities
 .opacity-04 {
   opacity: 4%;
-}
-.top-16 {
-  top: 16px;
 }

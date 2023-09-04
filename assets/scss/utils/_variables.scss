@@ -482,9 +482,10 @@ $spacers: (
 // scss-docs-start position-map
 $position-values: (
   0: 0,
+  16: 16px,
   50: 50%,
   100: 100%,
-) !default;
+) !default; //custom
 // scss-docs-end position-map
 
 // Body
@@ -544,7 +545,7 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px,
   xxl: 1400px,
-  xxxl: 1920px //custom,,,,,,,,,,,,,,,,,,,,
+  xxxl: 1920px //custom,,,,,,,,,,,,,,,,,,,,,,,
 ) !default;
 // scss-docs-end grid-breakpoints
 
@@ -562,7 +563,7 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px,
   xxl: 1320px,
-  xxxl: 1760px //custom,,,,,,,,,,,,,,,,,,,
+  xxxl: 1760px //custom,,,,,,,,,,,,,,,,,,,,,,
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -695,6 +696,7 @@ $h3-font-size: $font-size-base * 3 !default; //48px custom
 $h4-font-size: $font-size-base * 2 !default; //32px custom
 $h5-font-size: $font-size-base * 1.25 !default; //20px custom
 $h6-font-size: $font-size-base !default; //16px custom
+
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -705,6 +707,8 @@ $font-sizes: (
   4: $h4-font-size,
   5: $h5-font-size,
   6: $h6-font-size,
+  128: 128px,
+  400: 400px,
 ) !default;
 // scss-docs-end font-sizes
 

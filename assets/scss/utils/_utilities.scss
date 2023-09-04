@@ -46,7 +46,7 @@ $utilities: map-merge(
         property: opacity,
         values: (
           0: 0,
-          04: 0.04,
+          04: 0.4,
           //無作用
           25: 0.25,
           50: 0.5,
@@ -592,7 +592,8 @@ $utilities: map-merge(
         ),
       ),
     "font-size": (
-      rfs: true,
+      rfs: false,
+      responsive: true,
       property: font-size,
       class: fs,
       values: $font-sizes,

@@ -13,17 +13,17 @@
     @content;
   }
 }
-.box {
-  width: 100px;
-  height: 100px;
-  background: black;
-  @include pad {
-    background: blue;
-  }
-  @include pc {
-    background: red;
-  }
-  @include xxxl {
-    background: green;
-  }
-}
+// .box {
+//   width: 100px;
+//   height: 100px;
+//   background: black;
+//   @include pad {
+//     background: blue;
+//   }
+//   @include pc {
+//     background: red;
+//   }
+//   @include xxxl {
+//     background: green;
+//   }
+// }
