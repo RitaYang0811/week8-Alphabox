@@ -1,3 +1,4 @@
+https://ritayang0811.github.io/week8-Alphabox/
 # 網頁切版直播班 Vite 範例
 
 ## Node.js 版本
