@@ -10,8 +10,8 @@
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 ## 使用技術
-- 使用 Bootstrap 5、客製化部分樣式
-- SaSS
+- 使用 Bootstrap 5、客製化樣式
+- SASS
 - EJS 樣板
 - Swiper 輪播
 - Vite 佈署
