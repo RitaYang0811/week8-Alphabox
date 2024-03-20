@@ -15,8 +15,8 @@
     />
 
     <title>ALPHABOX+</title>
-    <script type="module" crossorigin src="/week8-Alphabox/assets/main-d8aff7d2.js"></script>
-    <link rel="stylesheet" href="/week8-Alphabox/assets/main-447716c7.css">
+    <script type="module" crossorigin src="/week8-Alphabox/assets/main-bd09d822.js"></script>
+    <link rel="stylesheet" href="/week8-Alphabox/assets/main-c2b8096e.css">
   </head>
   <body>
     <div class="position-relative">
@@ -339,43 +339,102 @@
         </h2>
         <div class="container-xxl card mt-4 mt-lg-8 mb-8">
           <div class="row align-items-center">
+            <!-- 左箭頭 -->
             <div class="col-md-2 d-none d-md-block">
-              <img
-                src="/week8-Alphabox/assets/design-desktop-line-start-arrow-notch-3ea0ea93.svg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col-12 col-md-8 position-relative">
-              <img
-                src="/week8-Alphabox/assets/design-desktop-carousel-800302d7.png"
-                class="img-fluid"
-                alt=""
-              />
-              <div
-                class="card-img-overlay top-50 translate-middle-y mx-4 mx-lg-10"
-              >
-                <span
-                  class="d-block text-start text-lg-end font-shrikhand fs-2 fs-lg-1"
-                  >01</span
-                >
-                <h3
-                  class="text-start text-lg-end fs-5 fs-lg-4 letter-spacing-20 letter-spacing-32 fw-bold"
-                >
-                  立體投影技術
-                </h3>
-                <p class="text-start text-lg-end fs-6 fw-bold">
-                  透過高科技立體投影技術，讓您感受真實的科技世界。
-                </p>
+              <div class="swiper-button-prev">
+                <img
+                  src="https://hackmd.io/_uploads/BJUmHUm6n.png"
+                  class="img-fluid rotate"
+                  alt=""
+                />
               </div>
             </div>
-            <div class="col-md-2 d-none d-md-block">
-              <img
-                src="/week8-Alphabox/assets/design-desktop-line-end-arrow-notch-0d98d9d7.svg"
-                class="img-fluid"
-                alt=""
-              />
+            <div class="col-12 col-md-8 position-relative">
+              <div class="swiper introswiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="/week8-Alphabox/assets/design-desktop-carousel-800302d7.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div
+                      class="card-img-overlay top-50 translate-middle-y mx-4 mx-lg-10"
+                    >
+                      <span
+                        class="d-block text-start text-lg-end font-shrikhand fs-2 fs-lg-1"
+                        >01</span
+                      >
+                      <h3
+                        class="text-start text-lg-end fs-5 fs-lg-4 letter-spacing-20 letter-spacing-32 fw-bold"
+                      >
+                        立體投影技術
+                      </h3>
+                      <p class="text-start text-lg-end fs-6 fw-bold">
+                        透過高科技立體投影技術，讓您感受真實的科技世界。
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="/week8-Alphabox/assets/design-desktop-carousel-800302d7.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div
+                      class="card-img-overlay top-50 translate-middle-y mx-4 mx-lg-10"
+                    >
+                      <span
+                        class="d-block text-start text-lg-end font-shrikhand fs-2 fs-lg-1"
+                        >02</span
+                      >
+                      <h3
+                        class="text-start text-lg-end fs-5 fs-lg-4 letter-spacing-20 letter-spacing-32 fw-bold"
+                      >
+                        立體投影技術
+                      </h3>
+                      <p class="text-start text-lg-end fs-6 fw-bold">
+                        透過高科技立體投影技術，讓您感受真實的科技世界。
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="/week8-Alphabox/assets/design-desktop-carousel-800302d7.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div
+                      class="card-img-overlay top-50 translate-middle-y mx-4 mx-lg-10"
+                    >
+                      <span
+                        class="d-block text-start text-lg-end font-shrikhand fs-2 fs-lg-1"
+                        >03</span
+                      >
+                      <h3
+                        class="text-start text-lg-end fs-5 fs-lg-4 letter-spacing-20 letter-spacing-32 fw-bold"
+                      >
+                        立體投影技術
+                      </h3>
+                      <p class="text-start text-lg-end fs-6 fw-bold">
+                        透過高科技立體投影技術，讓您感受真實的科技世界。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- 右箭頭 -->
+            <div class="col-md-2 d-none d-md-block">
+              <div class="swiper-button-next">
+                <img
+                  src="/week8-Alphabox/assets/design-desktop-line-end-arrow-notch-0d98d9d7.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            ｀
           </div>
         </div>
         <div
@@ -1047,6 +1106,23 @@
         },
         // 使 swiper 可以使用滑鼠滾輪捲動
         mousewheel: true,
+      });
+
+      const introswiper = new Swiper(".introswiper", {
+        autoplay: {
+          delay: 5000,
+        },
+        breakpoints: {
+          768: {
+            autoplay: {
+              enabled: false,
+            },
+          },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
       });
     </script>
   </body>
