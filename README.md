@@ -1,48 +1,22 @@
-# 網頁切版直播班 Vite 範例
+![首圖](https://storage.googleapis.com/vue-course-api.appspot.com/greensheep/1710787803420.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=PIuzKSEfIw%2B5jv491tUV0HeurXoFVnNrj%2BCZTX2BplpoKuCDOAOspYJGNGlTpmQf7wYUFvQfL3lIghsm86jqfq8NOHRUwkITJ%2BSPO8tW3U9jjVa4TIHwclUVDotXkYFVcUJz8LRZlrAZeruD5EiLiEEMDkjoo9bKJLrQ4FkJOQvNZzurvocrhp0MKVyuG4yLi%2FjuMEE1uqtepBG4o9avoF3nFgrOiOHNSClCAIaBf3jbBkw1GDmrADXlyzDzXKrh%2F69M9ai46rcII6BVwYZ6YHV3b7v%2F6rMR7NWpxIW2l%2BmO1qSRHSgk8IZwSqWb2Txmj21yTsg2Q60FI1bUXjU4uw%3D%3D)
+![展示](https://storage.googleapis.com/vue-course-api.appspot.com/greensheep/1710788589055.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=EHZLMJRbQ1fNRKsIWBVCbsmDEmgLfCDDqdGb1ShkFtF3ObpigXJXfCZ0pPVyxzjhbF3jcZpo9AW7xkHBn6GDJT%2FV4HlQk36DGuaehI1Ec4m1UzohNiJmLH3PGK3GUHVdzLqZbuB6YnIhFSJNcyL7v%2FxCPtmEBGcFpFxshtBm020cMq%2BLd4A26xiDKJRXLQFElGCZo%2F2PH8w5ub3RBrhwVJ1nIuRlfgqw0FobjUkl7wXC0z8Ej3ujaoeN1JOY6idD1bjXRRKWadYr8rcaJp2DJszFvcG9ON9PF7TGKwBxNDmCOfPJGF8Y2dMHHZuVzYZxVaJYijW8qmN2Wf9uWStBRQ%3D%3D)
+![商品](https://imgur.com/SafCHOv.gif)
+## Alphabox 人工智慧機器人產品網頁
+#### 此為課程作品
+###### https://ritayang0811.github.io/week8-Alphabox/
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-## Node.js 版本
-  - 專案的 Node.js 版本需為 v16 以上
-  - 查看自己版本指令：`node -v`
-
-
-## 指令列表
-- `npm install` - 初次下載該範例專案後，需要使用 npm install 來安裝套件
-- `npm run dev` - 執行開發模式
-  - 若沒有自動開啟瀏覽器，可嘗試手動在瀏覽器上輸入
-    `http://localhost:5173/<專案名稱>/pages/index.html`
-- `npm run build` - 執行編譯模式（不會開啟瀏覽器）
-- `npm ru deploy` - 自動化部署
-
-## 資料夾結構
-  - assets # 靜態資源放置處
-    - images # 圖片放置處
-    - scss # SCSS 的樣式放置處
-
-  - layout # ejs 模板放置處
-  - pages # 頁面放置處
-
-- JavaScript 程式碼可寫在 main.js 檔案
-
-### 注意事項
-- 已將 pages 資料夾內的 index.html 預設為首頁，建議不要任意修改 index.html 的檔案名稱
-- .gitignore 檔案是用來忽略掉不該上傳到 GitHub 的檔案（例如 node_modules），請不要移除 .gitignore
-
-## 開發模式的監聽
-vite 專案執行開發模式 `npm run dev` 後即會自動監聽，不需要使用 `Live Sass Compiler` 的 `Watch SCSS` 功能
-
-
-## 部署 gh-pages 流程說明
-### Windows 版本
-1. 在 GitHub 建立一個新的 Repository
-
-2. 部署前請務必先將原始碼上傳到 GitHub Repository 也就是初始化 GitHub，因此通常第一步驟會在專案終端機輸入以下指令
-```cmd
-git init # 若已經初始化過就可以不用輸入
-git add .
-git commit -m 'first commit'
-git branch -M main
-git remote add origin [GitHub Repositories Url]
-git push -u origin main // 僅限第一次輸入，往後只需要輸入 git push
-```
-
-3. 初始化完畢後，執行 `npm run deploy` 指令進行自動化部署
+## 使用技術
+- 使用 Bootstrap 5、客製化樣式
+- SASS
+- EJS 樣板
+- Swiper 輪播
+- Vite 佈署
+  
+## 頁面
+- index
+- productDiane
+- login
