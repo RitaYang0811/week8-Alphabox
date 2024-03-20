@@ -35,6 +35,23 @@
   opacity: 0.5;
   top: -100px;
 }
+
+//intro箭頭
+.rotate {
+  rotate: 180deg;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+  position: initial;
+  margin-top: 0;
+  width: auto;
+  height: auto;
+  &::after {
+    content: ""; //覆蓋原本swiper箭頭樣式
+  }
+}
 //評論尺寸
 .comment {
   height: 351px;
